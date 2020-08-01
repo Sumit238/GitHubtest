@@ -1,0 +1,54 @@
+`		html{
+			height: 100%;
+		}
+		body{
+			background-image: url("StartupLandingPage1.png");
+			background-size: 100%;
+			height: 100%;
+			background-repeat: no-repeat;
+			font-family: cursive;
+			color: white;
+			text-shadow: 2.5px 0px red;
+		}
+		.jumbotron{
+			background-color: rgba(0, 0, 0,0.01);
+			text-align: center;
+			text-shadow: 3px 5px 5px pink;
+			font-size: 50%;
+			width:70%;
+			margin-top: 60px;
+			padding: 10%;
+			min-height: 100px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.btn{
+			width: 25%;
+			min-width: 100px;
+			border-bottom-right-radius:5%; 
+			border-bottom-left-radius:5%;
+			border-top-right-radius: 5%;
+			border-top-left-radius: 5%;
+			background-color: #FF4343;
+			border:2px solid white;
+			color: white;
+
+		}
+		hr{
+			border: 1.5px solid white;
+		}
+		.navbar,.navbar-toggle{
+			background-color:rgba(255,0,0,0.48);
+			border-top: 3px solid red;
+			border-bottom: 3px solid red;
+		}
+		#Nav1 ul li a,#Nav1 div a span,.navbar-brand{
+			color: #FFFFFF;
+			font-size: 20px;
+		}
+		.active1{
+			background-color:rgba(255,0,0,0.2);
+		}
+		.collapse ul :hover{
+			background-color:rgba(255,0,0,0.5);
+		}
